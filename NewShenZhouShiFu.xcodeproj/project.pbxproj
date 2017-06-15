@@ -264,6 +264,18 @@
 		848AB6011EE79B090073BC93 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AB5F01EE79B090073BC93 /* TOCropViewControllerTransitioning.m */; };
 		848AB6021EE79B090073BC93 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AB5F21EE79B090073BC93 /* UIImage+CropRotate.m */; };
 		848AB6031EE79B090073BC93 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AB5F41EE79B090073BC93 /* UIImage+FixOrientation.m */; };
+		84AEA70F1EF12F3300D465F4 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA70D1EF12F3300D465F4 /* MineViewController.m */; };
+		84AEA7101EF12F3300D465F4 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA70E1EF12F3300D465F4 /* MineViewController.xib */; };
+		84AEA7141EF12F4100D465F4 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA7121EF12F4100D465F4 /* MallViewController.m */; };
+		84AEA7151EF12F4100D465F4 /* MallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA7131EF12F4100D465F4 /* MallViewController.xib */; };
+		84AEA7191EF12F4A00D465F4 /* TecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA7171EF12F4A00D465F4 /* TecViewController.m */; };
+		84AEA71A1EF12F4A00D465F4 /* TecViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA7181EF12F4A00D465F4 /* TecViewController.xib */; };
+		84AEA71E1EF12F5400D465F4 /* GoodShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA71C1EF12F5400D465F4 /* GoodShopViewController.m */; };
+		84AEA71F1EF12F5400D465F4 /* GoodShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA71D1EF12F5400D465F4 /* GoodShopViewController.xib */; };
+		84AEA7231EF12F5D00D465F4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA7211EF12F5D00D465F4 /* HomeViewController.m */; };
+		84AEA7241EF12F5D00D465F4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA7221EF12F5D00D465F4 /* HomeViewController.xib */; };
+		84AEA7281EF1334D00D465F4 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA7271EF1334D00D465F4 /* HomeHeaderView.m */; };
+		84E183D91EEE95B900FDF430 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E183D81EEE95B900FDF430 /* BaseTabBarController.m */; };
 		9D9D17BE0B94EC05CAEFA3BE /* libPods-NewShenZhouShiFu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904F33A755CBF29BA39E168B /* libPods-NewShenZhouShiFu.a */; };
 /* End PBXBuildFile section */
 
@@ -786,6 +798,25 @@
 		848AB5F21EE79B090073BC93 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
 		848AB5F31EE79B090073BC93 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		848AB5F41EE79B090073BC93 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		84AEA70C1EF12F3300D465F4 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		84AEA70D1EF12F3300D465F4 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		84AEA70E1EF12F3300D465F4 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		84AEA7111EF12F4100D465F4 /* MallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallViewController.h; sourceTree = "<group>"; };
+		84AEA7121EF12F4100D465F4 /* MallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MallViewController.m; sourceTree = "<group>"; };
+		84AEA7131EF12F4100D465F4 /* MallViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MallViewController.xib; sourceTree = "<group>"; };
+		84AEA7161EF12F4A00D465F4 /* TecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TecViewController.h; sourceTree = "<group>"; };
+		84AEA7171EF12F4A00D465F4 /* TecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TecViewController.m; sourceTree = "<group>"; };
+		84AEA7181EF12F4A00D465F4 /* TecViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TecViewController.xib; sourceTree = "<group>"; };
+		84AEA71B1EF12F5400D465F4 /* GoodShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodShopViewController.h; sourceTree = "<group>"; };
+		84AEA71C1EF12F5400D465F4 /* GoodShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodShopViewController.m; sourceTree = "<group>"; };
+		84AEA71D1EF12F5400D465F4 /* GoodShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodShopViewController.xib; sourceTree = "<group>"; };
+		84AEA7201EF12F5D00D465F4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		84AEA7211EF12F5D00D465F4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		84AEA7221EF12F5D00D465F4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		84AEA7261EF1334D00D465F4 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
+		84AEA7271EF1334D00D465F4 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
+		84E183D71EEE95B900FDF430 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		84E183D81EEE95B900FDF430 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		904F33A755CBF29BA39E168B /* libPods-NewShenZhouShiFu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewShenZhouShiFu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6BAA32A456E0CDE02A78714 /* Pods-NewShenZhouShiFu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewShenZhouShiFu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewShenZhouShiFu/Pods-NewShenZhouShiFu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -848,6 +879,7 @@
 		848AB2B41EE78EA40073BC93 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				84AEA6EA1EF12E6B00D465F4 /* Classes */,
 				848AB2CD1EE79A3A0073BC93 /* Base */,
 				848AB2BF1EE799510073BC93 /* Common */,
 				848AB2B71EE78EA40073BC93 /* Request */,
@@ -918,8 +950,8 @@
 		848AB2B91EE78EA40073BC93 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				848AB2C91EE799A10073BC93 /* UserTool.m */,
 				848AB2CA1EE799A10073BC93 /* UserTool.h */,
+				848AB2C91EE799A10073BC93 /* UserTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -963,6 +995,8 @@
 				848AB2D11EE79A400073BC93 /* BaseRequestManager.m */,
 				848AB2D21EE79A400073BC93 /* BaseViewController.h */,
 				848AB2D31EE79A400073BC93 /* BaseViewController.m */,
+				84E183D71EEE95B900FDF430 /* BaseTabBarController.h */,
+				84E183D81EEE95B900FDF430 /* BaseTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -2031,6 +2065,78 @@
 			path = SKFCamera;
 			sourceTree = "<group>";
 		};
+		84AEA6EA1EF12E6B00D465F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA6EF1EF12EA200D465F4 /* 我的 */,
+				84AEA6EE1EF12E9B00D465F4 /* 商场 */,
+				84AEA6ED1EF12E8F00D465F4 /* 名师 */,
+				84AEA6EC1EF12E8800D465F4 /* 好店 */,
+				84AEA6EB1EF12E7E00D465F4 /* 首页 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84AEA6EB1EF12E7E00D465F4 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA7251EF1332A00D465F4 /* View */,
+				84AEA7201EF12F5D00D465F4 /* HomeViewController.h */,
+				84AEA7211EF12F5D00D465F4 /* HomeViewController.m */,
+				84AEA7221EF12F5D00D465F4 /* HomeViewController.xib */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		84AEA6EC1EF12E8800D465F4 /* 好店 */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA71B1EF12F5400D465F4 /* GoodShopViewController.h */,
+				84AEA71C1EF12F5400D465F4 /* GoodShopViewController.m */,
+				84AEA71D1EF12F5400D465F4 /* GoodShopViewController.xib */,
+			);
+			name = "好店";
+			sourceTree = "<group>";
+		};
+		84AEA6ED1EF12E8F00D465F4 /* 名师 */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA7161EF12F4A00D465F4 /* TecViewController.h */,
+				84AEA7171EF12F4A00D465F4 /* TecViewController.m */,
+				84AEA7181EF12F4A00D465F4 /* TecViewController.xib */,
+			);
+			name = "名师";
+			sourceTree = "<group>";
+		};
+		84AEA6EE1EF12E9B00D465F4 /* 商场 */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA7111EF12F4100D465F4 /* MallViewController.h */,
+				84AEA7121EF12F4100D465F4 /* MallViewController.m */,
+				84AEA7131EF12F4100D465F4 /* MallViewController.xib */,
+			);
+			name = "商场";
+			sourceTree = "<group>";
+		};
+		84AEA6EF1EF12EA200D465F4 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA70C1EF12F3300D465F4 /* MineViewController.h */,
+				84AEA70D1EF12F3300D465F4 /* MineViewController.m */,
+				84AEA70E1EF12F3300D465F4 /* MineViewController.xib */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		84AEA7251EF1332A00D465F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84AEA7261EF1334D00D465F4 /* HomeHeaderView.h */,
+				84AEA7271EF1334D00D465F4 /* HomeHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		87C0A6C2B5F542E6ECBF5B1E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2103,12 +2209,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				848AB2AD1EE78D580073BC93 /* LaunchScreen.storyboard in Resources */,
+				84AEA71F1EF12F5400D465F4 /* GoodShopViewController.xib in Resources */,
 				848AB2AA1EE78D580073BC93 /* Assets.xcassets in Resources */,
 				848AB5D71EE79AFA0073BC93 /* MBProgressHUD.bundle in Resources */,
+				84AEA71A1EF12F4A00D465F4 /* TecViewController.xib in Resources */,
 				848AB5F71EE79B090073BC93 /* SKFCamera.bundle in Resources */,
+				84AEA7151EF12F4100D465F4 /* MallViewController.xib in Resources */,
 				848AB5CA1EE79AEA0073BC93 /* MJRefresh.bundle in Resources */,
 				848AB2A81EE78D580073BC93 /* Main.storyboard in Resources */,
 				848AB6001EE79B090073BC93 /* TOCropViewControllerLocalizable.strings in Resources */,
+				84AEA7101EF12F3300D465F4 /* MineViewController.xib in Resources */,
+				84AEA7241EF12F5D00D465F4 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2230,6 +2341,7 @@
 				848AB4DD1EE79A920073BC93 /* NSFetchRequest+JKExtensions.m in Sources */,
 				848AB5541EE79A930073BC93 /* UIColor+JKModify.m in Sources */,
 				848AB56E1EE79A930073BC93 /* UIImageView+JKBetterFace.m in Sources */,
+				84AEA7141EF12F4100D465F4 /* MallViewController.m in Sources */,
 				848AB5A51EE79A930073BC93 /* UIViewController+JKVisible.m in Sources */,
 				848AB5AD1EE79A930073BC93 /* UIWebVIew+JKSwipeGesture.m in Sources */,
 				848AB2A21EE78D580073BC93 /* AppDelegate.m in Sources */,
@@ -2244,6 +2356,7 @@
 				848AB5AF1EE79A930073BC93 /* UIWindow+JKHierarchy.m in Sources */,
 				848AB59C1EE79A930073BC93 /* UIView+JKScreenshot.m in Sources */,
 				848AB4F61EE79A920073BC93 /* NSDate+JKZeroDate.m in Sources */,
+				84AEA71E1EF12F5400D465F4 /* GoodShopViewController.m in Sources */,
 				848AB59A1EE79A930073BC93 /* UIView+JKNib.m in Sources */,
 				848AB54D1EE79A930073BC93 /* UIButton+JKImagePosition.m in Sources */,
 				848AB5771EE79A930073BC93 /* UINavigationController+JKKeyboardFix.m in Sources */,
@@ -2344,12 +2457,14 @@
 				848AB5721EE79A930073BC93 /* UIImageView+JKReflect.m in Sources */,
 				848AB53D1EE79A930073BC93 /* UIAlertView+JKBlock.m in Sources */,
 				848AB5B51EE79A930073BC93 /* UIImage+Mo.m in Sources */,
+				84AEA7281EF1334D00D465F4 /* HomeHeaderView.m in Sources */,
 				848AB5B21EE79A930073BC93 /* NSTimer+XTCategory.m in Sources */,
 				848AB5191EE79A930073BC93 /* NSString+JKContains.m in Sources */,
 				848AB4EA1EE79A920073BC93 /* NSData+JKDataCache.m in Sources */,
 				848AB5A21EE79A930073BC93 /* UIViewController+JKBlockSegue.m in Sources */,
 				848AB5951EE79A930073BC93 /* UIView+JKConstraints.m in Sources */,
 				848AB5681EE79A930073BC93 /* UIImage+JKRemoteSize.m in Sources */,
+				84AEA70F1EF12F3300D465F4 /* MineViewController.m in Sources */,
 				848AB5071EE79A920073BC93 /* NSDecimalNumber+JKExtensions.m in Sources */,
 				848AB5401EE79A930073BC93 /* UIApplication+JKNetworkActivityIndicator.m in Sources */,
 				848AB2D51EE79A400073BC93 /* BaseRequestManager.m in Sources */,
@@ -2372,6 +2487,7 @@
 				848AB5611EE79A930073BC93 /* UIImage+JKCapture.m in Sources */,
 				848AB5201EE79A930073BC93 /* NSString+JKMIME.m in Sources */,
 				848AB5601EE79A930073BC93 /* UIImage+JKBlur.m in Sources */,
+				84AEA7191EF12F4A00D465F4 /* TecViewController.m in Sources */,
 				848AB5131EE79A920073BC93 /* NSObject+JKKVOBlocks.m in Sources */,
 				848AB5AC1EE79A930073BC93 /* UIWebView+JKStyle.m in Sources */,
 				848AB55D1EE79A930073BC93 /* UIImage+JKAlpha.m in Sources */,
@@ -2397,6 +2513,7 @@
 				848AB5A31EE79A930073BC93 /* UIViewController+JKRecursiveDescription.m in Sources */,
 				848AB51A1EE79A930073BC93 /* NSString+JKDictionaryValue.m in Sources */,
 				848AB5821EE79A930073BC93 /* UIScrollView+JKPages.m in Sources */,
+				84E183D91EEE95B900FDF430 /* BaseTabBarController.m in Sources */,
 				848AB54E1EE79A930073BC93 /* UIButton+JKIndicator.m in Sources */,
 				848AB5091EE79A920073BC93 /* NSNumber+JKRomanNumerals.m in Sources */,
 				848AB5251EE79A930073BC93 /* NSString+JKSize.m in Sources */,
@@ -2409,6 +2526,7 @@
 				848AB5861EE79A930073BC93 /* UITabBarController+extension.m in Sources */,
 				848AB5511EE79A930073BC93 /* UIButton+JKTouchAreaInsets.m in Sources */,
 				848AB56A1EE79A930073BC93 /* UIImage+JKRoundedCorner.m in Sources */,
+				84AEA7231EF12F5D00D465F4 /* HomeViewController.m in Sources */,
 				848AB2D41EE79A400073BC93 /* BaseNavViewController.m in Sources */,
 				848AB5D01EE79AEA0073BC93 /* UIScrollView+MJRefresh.m in Sources */,
 				848AB5851EE79A930073BC93 /* UITabBar+badge.m in Sources */,

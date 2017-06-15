@@ -24,8 +24,6 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
     isTransform = NO;
-    
-    
 }
 
 #pragma mark - 网络加载动画

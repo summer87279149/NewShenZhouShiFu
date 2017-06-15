@@ -95,9 +95,10 @@
 #define CGRectSetWidth(rect, w) rect = CGRectMake(rect.origin.x, rect.origin.y, w, rect.size.height)
 #define CGRectSetHeight(rect, h) rect = CGRectMake(rect.origin.x, rect.origin.y, rect.size.width, h)
 //GRB
+#define COLOR      [UIColor jk_colorWithHexString:@"3b2935"]
 #define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
 #define UIColorFromRGBA(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(rgbValue & 0x0000FF))/255.0 alpha:alphaValue]
-
+#import <ReactiveObjC/ReactiveObjC.h>
 #import "BaseViewController.h"
 #import "RETableViewManager.h"
 #import "JHUD.h"
@@ -117,4 +118,5 @@
 #import "MJRefresh.h"
 #import "NSDictionary+Log.h"
 #import "NSArray+Log.h"
+#import "UIColor+JKHEX.h"
 #endif /* PrefixHeader_pch */
