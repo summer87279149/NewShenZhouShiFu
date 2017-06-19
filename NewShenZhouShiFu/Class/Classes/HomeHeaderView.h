@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+NS_ASSUME_NONNULL_BEGIN
 typedef void(^ClicKImg)(NSInteger clickedIndex);
-
+typedef void(^ClicKView)(NSInteger viewTag);
 @interface HomeHeaderView : UIView
-
+-(instancetype)initWithFrame:(CGRect)frame andImgArr:(NSMutableArray*)arr didSelectItemCallBack:(ClicKImg)block searchButtonClicked:(void(^)(id  x))btnBlock view8btnClicked:(ClicKView)viewBlock;
+NS_ASSUME_NONNULL_END
 @end

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BtnView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8o-kJ-Xal">
+                    <rect key="frame" x="0.0" y="365" width="375" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Em-J1-jSl">
+                    <rect key="frame" x="10" y="0.0" width="355" height="355"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2Em-J1-jSl" secondAttribute="height" multiplier="1:1" id="xvq-zV-xeU"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="2Em-J1-jSl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AsV-3K-ras"/>
+                <constraint firstItem="f8o-kJ-Xal" firstAttribute="top" secondItem="2Em-J1-jSl" secondAttribute="bottom" constant="10" id="Gsk-l5-y2P"/>
+                <constraint firstItem="f8o-kJ-Xal" firstAttribute="centerX" secondItem="2Em-J1-jSl" secondAttribute="centerX" id="Rmg-JW-zkw"/>
+                <constraint firstItem="f8o-kJ-Xal" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="YDd-x7-bTO"/>
+                <constraint firstItem="2Em-J1-jSl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tos-Tc-7ho"/>
+                <constraint firstItem="2Em-J1-jSl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="yZk-15-FY1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

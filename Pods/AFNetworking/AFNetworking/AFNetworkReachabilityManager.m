@@ -125,11 +125,8 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
 
 + (instancetype)managerForDomain:(NSString *)domain {
     SCNetworkReachabilityRef reachability = SCNetworkReachabilityCreateWithName(kCFAllocatorDefault, [domain UTF8String]);
-
     AFNetworkReachabilityManager *manager = [[self alloc] initWithReachability:reachability];
-    
     CFRelease(reachability);
-
     return manager;
 }
 
@@ -250,12 +247,10 @@ static void AFNetworkReachabilityReleaseCallback(const void *info) {
 }
 
 #pragma mark - NSKeyValueObserving
-
 + (NSSet *)keyPathsForValuesAffectingValueForKey:(NSString *)key {
     if ([key isEqualToString:@"reachable"] || [key isEqualToString:@"reachableViaWWAN"] || [key isEqualToString:@"reachableViaWiFi"]) {
         return [NSSet setWithObject:@"networkReachabilityStatus"];
     }
-
     return [super keyPathsForValuesAffectingValueForKey:key];
 }
 

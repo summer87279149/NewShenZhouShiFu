@@ -17,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
+    Class debugCls = NSClassFromString(@"UIDebuggingInformationOverlay");
+    [debugCls performSelector:NSSelectorFromString(@"prepareDebuggingOverlay")];
     BaseTabBarController *tabBarVC=[[BaseTabBarController alloc]init];
     tabBarVC.delegate=self;
     

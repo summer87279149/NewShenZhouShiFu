@@ -264,6 +264,7 @@
 		848AB6011EE79B090073BC93 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AB5F01EE79B090073BC93 /* TOCropViewControllerTransitioning.m */; };
 		848AB6021EE79B090073BC93 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AB5F21EE79B090073BC93 /* UIImage+CropRotate.m */; };
 		848AB6031EE79B090073BC93 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AB5F41EE79B090073BC93 /* UIImage+FixOrientation.m */; };
+		84A0366D1EF4DD4D002B7FBC /* XHNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A0366C1EF4DD4D002B7FBC /* XHNetworkCache.m */; };
 		84AEA70F1EF12F3300D465F4 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA70D1EF12F3300D465F4 /* MineViewController.m */; };
 		84AEA7101EF12F3300D465F4 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA70E1EF12F3300D465F4 /* MineViewController.xib */; };
 		84AEA7141EF12F4100D465F4 /* MallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA7121EF12F4100D465F4 /* MallViewController.m */; };
@@ -275,6 +276,10 @@
 		84AEA7231EF12F5D00D465F4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA7211EF12F5D00D465F4 /* HomeViewController.m */; };
 		84AEA7241EF12F5D00D465F4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AEA7221EF12F5D00D465F4 /* HomeViewController.xib */; };
 		84AEA7281EF1334D00D465F4 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA7271EF1334D00D465F4 /* HomeHeaderView.m */; };
+		84B4E8681EF3725A00EF02B8 /* BtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E8671EF3725A00EF02B8 /* BtnView.m */; };
+		84B4E86A1EF3726E00EF02B8 /* BtnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B4E8691EF3726E00EF02B8 /* BtnView.xib */; };
+		84B4E86E1EF37CFE00EF02B8 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B4E86D1EF37CFE00EF02B8 /* Reveal.framework */; };
+		84B4E8701EF37D3400EF02B8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B4E86F1EF37D3400EF02B8 /* libz.tbd */; };
 		84E183D91EEE95B900FDF430 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E183D81EEE95B900FDF430 /* BaseTabBarController.m */; };
 		9D9D17BE0B94EC05CAEFA3BE /* libPods-NewShenZhouShiFu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904F33A755CBF29BA39E168B /* libPods-NewShenZhouShiFu.a */; };
 /* End PBXBuildFile section */
@@ -798,6 +803,8 @@
 		848AB5F21EE79B090073BC93 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
 		848AB5F31EE79B090073BC93 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		848AB5F41EE79B090073BC93 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		84A0366B1EF4DD4D002B7FBC /* XHNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetworkCache.h; sourceTree = "<group>"; };
+		84A0366C1EF4DD4D002B7FBC /* XHNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetworkCache.m; sourceTree = "<group>"; };
 		84AEA70C1EF12F3300D465F4 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		84AEA70D1EF12F3300D465F4 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		84AEA70E1EF12F3300D465F4 /* MineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
@@ -815,6 +822,11 @@
 		84AEA7221EF12F5D00D465F4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		84AEA7261EF1334D00D465F4 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
 		84AEA7271EF1334D00D465F4 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
+		84B4E8661EF3725A00EF02B8 /* BtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnView.h; sourceTree = "<group>"; };
+		84B4E8671EF3725A00EF02B8 /* BtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnView.m; sourceTree = "<group>"; };
+		84B4E8691EF3726E00EF02B8 /* BtnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BtnView.xib; sourceTree = "<group>"; };
+		84B4E86D1EF37CFE00EF02B8 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		84B4E86F1EF37D3400EF02B8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		84E183D71EEE95B900FDF430 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		84E183D81EEE95B900FDF430 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
 		904F33A755CBF29BA39E168B /* libPods-NewShenZhouShiFu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewShenZhouShiFu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -826,7 +838,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B4E8701EF37D3400EF02B8 /* libz.tbd in Frameworks */,
 				9D9D17BE0B94EC05CAEFA3BE /* libPods-NewShenZhouShiFu.a in Frameworks */,
+				84B4E86E1EF37CFE00EF02B8 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -836,6 +850,7 @@
 		07CB8D0F141197631DE5767C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84B4E86F1EF37D3400EF02B8 /* libz.tbd */,
 				904F33A755CBF29BA39E168B /* libPods-NewShenZhouShiFu.a */,
 			);
 			name = Frameworks;
@@ -844,6 +859,7 @@
 		848AB2911EE78D580073BC93 = {
 			isa = PBXGroup;
 			children = (
+				84B4E86D1EF37CFE00EF02B8 /* Reveal.framework */,
 				848AB29C1EE78D580073BC93 /* NewShenZhouShiFu */,
 				848AB29B1EE78D580073BC93 /* Products */,
 				87C0A6C2B5F542E6ECBF5B1E /* Pods */,
@@ -959,6 +975,7 @@
 		848AB2BA1EE78EA40073BC93 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				84A0366A1EF4DD4D002B7FBC /* XHNetworkCache */,
 				848AB5D81EE79B090073BC93 /* SKFCamera */,
 				848AB5D21EE79AFA0073BC93 /* MBProgressHUD */,
 				848AB5B91EE79AE90073BC93 /* MJRefresh */,
@@ -2065,6 +2082,15 @@
 			path = SKFCamera;
 			sourceTree = "<group>";
 		};
+		84A0366A1EF4DD4D002B7FBC /* XHNetworkCache */ = {
+			isa = PBXGroup;
+			children = (
+				84A0366B1EF4DD4D002B7FBC /* XHNetworkCache.h */,
+				84A0366C1EF4DD4D002B7FBC /* XHNetworkCache.m */,
+			);
+			path = XHNetworkCache;
+			sourceTree = "<group>";
+		};
 		84AEA6EA1EF12E6B00D465F4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2133,6 +2159,9 @@
 			children = (
 				84AEA7261EF1334D00D465F4 /* HomeHeaderView.h */,
 				84AEA7271EF1334D00D465F4 /* HomeHeaderView.m */,
+				84B4E8661EF3725A00EF02B8 /* BtnView.h */,
+				84B4E8671EF3725A00EF02B8 /* BtnView.m */,
+				84B4E8691EF3726E00EF02B8 /* BtnView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -2213,6 +2242,7 @@
 				848AB2AA1EE78D580073BC93 /* Assets.xcassets in Resources */,
 				848AB5D71EE79AFA0073BC93 /* MBProgressHUD.bundle in Resources */,
 				84AEA71A1EF12F4A00D465F4 /* TecViewController.xib in Resources */,
+				84B4E86A1EF3726E00EF02B8 /* BtnView.xib in Resources */,
 				848AB5F71EE79B090073BC93 /* SKFCamera.bundle in Resources */,
 				84AEA7151EF12F4100D465F4 /* MallViewController.xib in Resources */,
 				848AB5CA1EE79AEA0073BC93 /* MJRefresh.bundle in Resources */,
@@ -2365,6 +2395,7 @@
 				848AB5811EE79A930073BC93 /* UIScrollView+JKAddition.m in Sources */,
 				848AB55A1EE79A930073BC93 /* UIFont+JKCustomLoader.m in Sources */,
 				848AB5B81EE79A930073BC93 /* UIViewController+CameraAndPhoto.m in Sources */,
+				84B4E8681EF3725A00EF02B8 /* BtnView.m in Sources */,
 				848AB5B71EE79A930073BC93 /* UIImageView+XTDraggalbleImage.m in Sources */,
 				848AB5641EE79A930073BC93 /* UIImage+JKFXImage.m in Sources */,
 				848AB5441EE79A930073BC93 /* UIBezierPath+JKBasicShapes.m in Sources */,
@@ -2480,6 +2511,7 @@
 				848AB52B1EE79A930073BC93 /* NSTimer+JKAddition.m in Sources */,
 				848AB56B1EE79A930073BC93 /* UIImage+JKSuperCompress.m in Sources */,
 				848AB5121EE79A920073BC93 /* NSObject+JKGCD.m in Sources */,
+				84A0366D1EF4DD4D002B7FBC /* XHNetworkCache.m in Sources */,
 				848AB6031EE79B090073BC93 /* UIImage+FixOrientation.m in Sources */,
 				848AB5FD1EE79B090073BC93 /* TOCropToolbar.m in Sources */,
 				848AB5211EE79A930073BC93 /* NSString+JKNormalRegex.m in Sources */,
@@ -2659,10 +2691,50 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VK6VB86T3H;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NewShenZhouShiFu/Class/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = NewShenZhouShiFu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"DZNEmptyDataSet\"",
+					"-l\"FDStackView\"",
+					"-l\"JHUD\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"Masonry\"",
+					"-l\"REFormattedNumberField\"",
+					"-l\"RETableViewManager\"",
+					"-l\"REValidation\"",
+					"-l\"ReactiveObjC\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"WMPageController\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldwl.NewShenZhouShiFu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2675,10 +2747,50 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VK6VB86T3H;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/NewShenZhouShiFu/Class/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = NewShenZhouShiFu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"DZNEmptyDataSet\"",
+					"-l\"FDStackView\"",
+					"-l\"JHUD\"",
+					"-l\"MBProgressHUD\"",
+					"-l\"Masonry\"",
+					"-l\"REFormattedNumberField\"",
+					"-l\"RETableViewManager\"",
+					"-l\"REValidation\"",
+					"-l\"ReactiveObjC\"",
+					"-l\"SDCycleScrollView\"",
+					"-l\"SDWebImage\"",
+					"-l\"WMPageController\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-ObjC",
+					"-framework",
+					Reveal,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ldwl.NewShenZhouShiFu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
