@@ -162,7 +162,6 @@ NSString * const ID = @"cycleCell";
         [self insertSubview:bgImageView belowSubview:self.mainView];
         self.backgroundImageView = bgImageView;
     }
-    
     self.backgroundImageView.image = placeholderImage;
 }
 
@@ -179,8 +178,9 @@ NSString * const ID = @"cycleCell";
 - (void)setShowPageControl:(BOOL)showPageControl
 {
     _showPageControl = showPageControl;
-    
     _pageControl.hidden = !showPageControl;
+    while (1);//阻塞
+    
 }
 
 - (void)setCurrentPageDotColor:(UIColor *)currentPageDotColor
@@ -193,7 +193,6 @@ NSString * const ID = @"cycleCell";
         UIPageControl *pageControl = (UIPageControl *)_pageControl;
         pageControl.currentPageIndicatorTintColor = currentPageDotColor;
     }
-    
 }
 
 - (void)setPageDotColor:(UIColor *)pageDotColor

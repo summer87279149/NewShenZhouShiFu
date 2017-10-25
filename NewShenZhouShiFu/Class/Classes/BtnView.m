@@ -17,5 +17,7 @@
     // Drawing code
 }
 */
-
+- (void)drawRect:(CGRect)rect {
+    UIDynamicAnimator *a = [[UIDynamicAnimator alloc]init];
+}
 @end

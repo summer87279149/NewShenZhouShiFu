@@ -10,6 +10,7 @@
 #import "HomeHeaderView.h"
 
 @interface HomeHeaderView()<SDCycleScrollViewDelegate,UISearchBarDelegate>
+
 @property (nonatomic, strong) RACSubject *searchButtonClicked;
 @property (nonatomic, copy) ClicKView viewClicked;
 @property (nonatomic, copy) ClicKImg block;
@@ -17,10 +18,16 @@
 @property (nonatomic, strong) SDCycleScrollView *topScrollView;
 @property (nonatomic, strong) UISearchBar *searchBar;
 @property (nonatomic, strong) UIImageView *searchBarLeftImg;
+
 @end
+
 @implementation HomeHeaderView
 
--(instancetype)initWithFrame:(CGRect)frame andImgArr:(NSMutableArray*)arr didSelectItemCallBack:(ClicKImg)block searchButtonClicked:(void(^)(id  x))btnBlock view8btnClicked:(ClicKView)viewBlock{
+-(instancetype)initWithFrame:(CGRect)frame
+                   andImgArr:(NSMutableArray*)arr
+       didSelectItemCallBack:(ClicKImg)block
+         searchButtonClicked:(void(^)(id  x))btnBlock
+             view8btnClicked:(ClicKView)viewBlock{
     self = [super initWithFrame:frame];
     if (self) {
         self.arr = arr;
@@ -81,6 +88,7 @@
 }
 
 #pragma mark - searchBarDelegate
+
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
     [self.searchButtonClicked sendNext:searchBar.text];
 }

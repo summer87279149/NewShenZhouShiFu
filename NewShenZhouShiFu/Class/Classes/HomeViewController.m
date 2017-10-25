@@ -47,32 +47,30 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50;
 }
+
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 10;
 }
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *tableCell = @"CellIdentifier";
     UITableViewCell *cell = (UITableViewCell *)[tableView dequeueReusableCellWithIdentifier:tableCell];
-    if (cell == nil)
-    {
+    if (cell == nil){
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                           reuseIdentifier:tableCell];
     }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     if (self.cellArr) {
     }
-    
     return cell;
 }
 
 -(HomeHeaderView*)headerView{
     if(!_headerView){
         _headerView = [[HomeHeaderView alloc]initWithFrame:CGRectMake(0, 64, kScreenWidth, 500) andImgArr:[NSMutableArray arrayWithCapacity:0] didSelectItemCallBack:^(NSInteger clickedIndex) {
-            
         } searchButtonClicked:^(id x) {
-            
         } view8btnClicked:^(NSInteger viewTag) {
-            
+         
         }];
     }
     return _headerView;
